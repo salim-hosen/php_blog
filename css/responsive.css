@@ -1,0 +1,129 @@
+@media only screen and (max-width: 600px){
+  #wrapper{
+    overflow: hidden;
+	}
+  .header_menu a{
+    width: 100%;
+    padding-left: 0;
+    background: none;
+  }
+  
+  .search{
+   width: 100%;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  
+  .search form{
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .titleSection{
+    background: #FFE793;
+    margin-top: 108px;
+  }
+  .title{
+    width: 100%;
+    padding-left: 0;
+  }
+  
+  .title h2,.title p{
+    padding: 0;
+  }
+  
+  .title h2{
+    font-size: 1.1em;
+  }
+  .title p{
+    font-size: 0.55em;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .latest,.popular,.catSubs{
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  .lpost,.ppost{
+    width: 48%;
+    height: 260px !important;
+    margin-right: 2%;
+    margin-bottom: 15px;
+
+  }
+  
+  .lpost img,.ppost img{
+    height: 150px;
+  }
+  
+  .allpost{
+    width: 200px;
+  }
+  
+  .allpost a{
+    padding: 6px;
+  }
+  
+  
+  .subscribe label{
+    display: none;
+  }
+  
+  .main{
+    margin-top: 120px;
+  }
+  
+  
+  .list img{
+    float: none;
+    margin: 10px auto;
+  }
+  
+  .contact input[type='email'],.contact textarea{
+    width: 90% !important;
+  }
+  
+  #msg{
+    width: 60% !important;;
+  }
+  
+}
+
+@media only screen and (max-width: 768px){
+  .category,.subscribe,.contact{
+    width: 100%;
+  }
+  
+  .latest,.popular{
+    width: 95%;
+  }
+  
+  .listpost{
+    width: 100%;
+  }
+  
+  .category,.sidebar{
+    width: 100%;
+  }
+  
+  .lpost img,.ppost img{
+    height: 150px;
+  }
+  
+  .contact input[type='email'],.contact textarea{
+    width: 65%;
+  }
+  
+  
+  #msg{
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px){
+  .latest,.popular{
+    width: 95%;
+  }
+}
